@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 220" role="img" aria-label="Illustrated rocket">
+  <defs>
+    <linearGradient id="body" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#fffdf7"/><stop offset=".48" stop-color="#f5dce8"/><stop offset="1" stop-color="#c887a7"/></linearGradient>
+    <linearGradient id="fin" x1="0" x2="1"><stop stop-color="#ad668c"/><stop offset="1" stop-color="#e3a8bd"/></linearGradient>
+    <linearGradient id="flame" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#fff5a4"/><stop offset=".5" stop-color="#ffb85d"/><stop offset="1" stop-color="#f16c7c"/></linearGradient>
+  </defs>
+  <path d="M80 8C48 31 35 74 38 135h84c3-61-10-104-42-127Z" fill="url(#body)" stroke="#9f6685" stroke-width="4"/>
+  <path d="M40 108 13 145l28-5m79-32 27 37-28-5" fill="url(#fin)" stroke="#9f6685" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="80" cy="78" r="20" fill="#b9e7ef" stroke="#986486" stroke-width="5"/>
+  <circle cx="74" cy="72" r="6" fill="#fff" opacity=".8"/>
+  <path d="M57 139h46l-6 21H63Z" fill="#8d5c7a"/>
+  <path d="M65 158c-1 17 8 28 15 48 7-20 16-31 15-48Z" fill="url(#flame)"/>
+  <path d="M78 161c-2 12 0 21 2 29 5-9 7-17 4-29Z" fill="#fff5cb"/>
+  <path d="m80 31 4 9 9 4-9 4-4 9-4-9-9-4 9-4Z" fill="#d68aa4"/>
+</svg>
